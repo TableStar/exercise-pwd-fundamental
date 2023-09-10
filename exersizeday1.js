@@ -1,3 +1,27 @@
+//write a code to find area of rectangle
+//input length, width
+let length = 20;
+let width = 18;
+
+//process
+//formula length * width
+let result = length * width;
+
+//output
+console.log("area of rectangle :>> ", result);
+
+//wrresultd perimeter of rectangle
+//input: length,width, reassign both value and result
+length = 30;
+width = 10;
+//process
+//formula 2 * (length + width)
+result = 2 * (length + width);
+
+//output
+console.log("perimeter of rectangle :>> ", result);
+
+
 // write a code to find diameter,  circumference and area of circle
 //input
 const PI = Math.PI;
@@ -46,14 +70,12 @@ console.log(date2.getTime());
 result = date2.getTime() - date1.getTime();
 result2 = result / 8.64e7;
 //output
-console.log(result2);
+console.log(Math.ceil(result2));
+
 
 //write a code to convert days to years, months, and days
 //input
 let daycount = 1300;
-const year = "Year";
-const month = "Month";
-const days = "Days";
 
 //process
 result = daycount / 365;
@@ -63,4 +85,4 @@ resultMonth = Math.floor(result2);
 resultdays = (daycount % (resultYear * 365)) % 30;
 
 //output
-console.log(resultYear, year, resultMonth, month, resultdays, days);
+console.log(`${resultYear} year, ${resultMonth} month, ${resultdays} days`);
