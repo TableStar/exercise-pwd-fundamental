@@ -69,3 +69,10 @@ const splicer = (arrayNum) => {
 }
 console.log(splicer([1,2,3,4,5,6,7,8,9,10,11,12,13,14]));
 
+let numbing = [1,2,3,4]
+let hasilNumb = 0
+for (let indexo = 0; indexo < numbing.length; indexo++) {
+    hasilNumb += numbing[indexo]
+    
+}
+console.log(hasilNumb);
